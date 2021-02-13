@@ -1,0 +1,6 @@
+apiVersion: dbaas.saddleriver.com/v1alpha1
+kind: Dbaas
+metadata:
+  name: dbaas-sample
+spec:
+  foo: bar

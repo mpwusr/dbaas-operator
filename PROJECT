@@ -1,0 +1,11 @@
+domain: saddleriver.com
+layout: ansible.sdk.operatorframework.io/v1
+projectName: dbaas-operator
+resources:
+- group: dbaas
+  kind: Dbaas
+  version: v1alpha1
+version: 3-alpha
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
